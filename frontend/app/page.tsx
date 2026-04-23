@@ -98,6 +98,17 @@ export default function HomePage() {
     <main style={{ maxWidth: 1120, margin: '0 auto', padding: 32 }}>
       <div style={{ marginBottom: 28 }}>
         <h1 style={{ fontSize: 36, marginBottom: 10 }}>二手家具放进我家 · V1.7</h1>
+        <p style={{ 
+          background: '#fff7ed',
+          border: '1px solid #fdba74',
+          color: '#9a3412',
+          padding: '10px 14px',
+          borderRadius: 10,
+          fontSize: 14,
+          marginBottom: 16
+}}>
+  ⚠ 当前为演示版本，在线环境不支持图片处理，请在本地运行完整功能
+</p>
         <p style={{ margin: 0, color: '#6b7280', fontSize: 16 }}>
           自动接地点 + 手动上下微调，让预览和最终图更一致。
         </p>

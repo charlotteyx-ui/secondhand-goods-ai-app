@@ -14,3 +14,5 @@ E:\resell-vision-mvp\backend>.\.venv\Scripts\python.exe -m uvicorn app.main:app 
 撤销上一步：
 按下 Ctrl + Z（Windows）
 或 Cmd + Z（macOS）
+
+只展示前端的URL： https://secondhand-goods-ai-app.vercel.app/
