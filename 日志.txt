@@ -1,0 +1,16 @@
+启动后端 in terminal
+E:\resell-vision-mvp>cd backend
+E:\resell-vision-mvp\backend>.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --port 8000
+
+启动前端
+(.venv) E:\resell-vision-mvp>cd frontend  
+(.venv) E:\resell-vision-mvp\frontend>npm run dev
+
+
+批量修改/删除（使用 VS Code 的查找和替换功能）
+步骤：1. 打开 VS Code。
+2. 按 Ctrl + Shift + F（或者点击左侧的放大镜图标，打开全局搜索）。
+
+撤销上一步：
+按下 Ctrl + Z（Windows）
+或 Cmd + Z（macOS）
