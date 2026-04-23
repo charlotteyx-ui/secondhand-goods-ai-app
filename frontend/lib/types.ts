@@ -11,3 +11,11 @@ export type ComposeJobResponse = {
   status: string;
   result_image_url: string;
 };
+
+export type JobDetail = {
+  job_id: string;
+  status: string;
+  product_image_url?: string;
+  room_image_url?: string;
+  result_image_url: string;
+};

@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { getJob } from '@/lib/api';
-import type { JobDetail } from '@/lib/types';
+import { getJob } from '../../../lib/api';
+import type { JobDetail } from '../../../lib/types';
 
 export default function ResultPage({ params }: { params: { jobId: string } }) {
   const [job, setJob] = useState<JobDetail | null>(null);
@@ -26,7 +26,11 @@ export default function ResultPage({ params }: { params: { jobId: string } }) {
     <main style={{ maxWidth: 1000, margin: '0 auto', padding: 32 }}>
       <h1>结果详情</h1>
       <p>状态：{job.status}</p>
-      <img src={job.result_image_url} alt="result" style={{ width: '100%', borderRadius: 16 }} />
+      <img
+        src={job.result_image_url}
+        alt="result"
+        style={{ width: '100%', borderRadius: 16 }}
+      />
     </main>
   );
 }
